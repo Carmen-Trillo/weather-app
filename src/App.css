@@ -4,7 +4,7 @@ body {
   padding: 20px;
 }
 
-h1, h2{
+h1, h2, h3{
   text-align: center;
   font-family: 'Montserrat';
   font-weight: 500;
@@ -42,6 +42,54 @@ img {
   text-align: center;
   margin-bottom: 10vh;
 }
+
+.subcontenedor{
+  display:flex;
+  flex-direction: row;
+}
+
+#busqueda{
+  width:60vw;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  margin: 5px 0;
+  justify-content: center;
+}
+
+li button {
+  padding: 8px;
+  background-color: rgb(81, 97, 177);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 2vw;
+}
+
+li button:hover {
+  background-color: darkred;
+}
+
+input{
+  margin-left: -3vw;
+}
+
+.radio {
+  margin: 0;
+  padding: 0;
+}
+
+.radio input {
+  margin: 0;
+}
+
 
 #footer {
   background-color: #9DC0F8;

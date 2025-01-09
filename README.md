@@ -9,16 +9,12 @@ React-Vite
 
 👩‍💻Work Approach:
 
-On the one hand, a back has been worked on in C# and its connection between the back and the front has been worked on, which we can find in the PhotoServiceC file and with the PhotoHandlerC file
-On the other hand, a Fake API has been created through the json server and the connection has been created through the PhotoService and HandlerService files, in case you want to work without a C# back
-The Front is currently connected to the C# Back, having to perform transformations on the image since the photos are stored in the database with a base64 string.
-Similarly, when an image is added to the front through the form, another transformation is executed to convert it to a base64 string that the database accepts.
-In the back we have worked taking into account the possibility of loading the photos from the front in the database or adding new elements directly from the API
-Only those photos that have been designated for publication are displayed on the web, the rest of the photos are stored in the database
+To carry out the exercise, once the necessary installations have been completed, I have created different components to be able to execute them later in the app.In addition to the Header and Footer components, I have created the following:• WeatherSearch.jsx: to search for the city• WeatherDisplay.jsx: to display weather information in either Celsius or Fahrenheit• FavoriteCities.jsx: manages the list of favorite cities and allows you to add them to a list• TemperatureUnitSelector.jsx: will allow you to select between Celsius and Fahrenheit.Once the components were developed, we proceeded to manage all the components within the app, developing App.jsx. After this, a basic style has been given to the application to be able to make queries.
 
 💻How to install this project:
 Clone the project
-git clone https://github.com/Carmen-Trillo/Rincones-Sevilla
+git clone https://github.com/Carmen-Trillo/weather-app
+
 
 Install dependencies
 npm install
@@ -26,3 +22,5 @@ npm install
 Activate the server and keep this terminal open
 npm run dev
 
+🧪Next Steps:
+Develop a database that allows you to save the list of favorite cities and consult them again

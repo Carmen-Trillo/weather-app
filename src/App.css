@@ -35,15 +35,17 @@ img {
 }
 
 .imgHeader {
-  margin-top: -35vh;
+  margin-top: -2vh;
 }
 
 .contenedor {
+  margin-top: -4vh;
   text-align: center;
   margin-bottom: 10vh;
 }
 
 .subcontenedor{
+  margin-top: -12vh;
   display:flex;
   flex-direction: row;
 }
